@@ -37,3 +37,14 @@ The task is episodic, and in order to solve the environment, your agent must get
 ### Instructions
 
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent!
+
+### Files included
+
+- `dqn_agent.py`: code for the agent used in the environment
+- `model.py`: code containing the Q-Network used as the function approximator by the agent
+- `dqn.pth`: saved model weights for the original DQN model
+- `Navigation.ipynb`: notebook containing the implemention of the dqn model
+
+### Results
+The environment was solved in **402** episodes and an Average Score of 13.02.
+
