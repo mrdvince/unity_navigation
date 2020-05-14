@@ -67,6 +67,14 @@ print('States have length:', state_size)
       0.31775284  0.          0.        ]
     States have length: 37
 
+### Model Architecture
+
+The model consists of 3 fully connected layers
+The first layer takes in the state size which in this case is 37 and passes this to the hidden layer and outputs the action size
+
+The relu activation function is applied and no activation is applied on the output layer
+
+Finally we return the output of the last fully connected layer
 
 ### Hyperparameters used
 
